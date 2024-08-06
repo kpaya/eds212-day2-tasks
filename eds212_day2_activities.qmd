@@ -37,7 +37,6 @@ ggplot(penguins, aes(x=bill_length_mm,y=bill_depth_mm, color=species)) +  geom_p
        y = "Bill Depth (mm)") 
 ```
 
-
 ```{r}
 head(penguins)
 ggplot(penguins, aes(x=species, y=flipper_length_mm,color=species)) + geom_jitter(width = 0.2) +
