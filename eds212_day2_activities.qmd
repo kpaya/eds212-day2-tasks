@@ -1,0 +1,10 @@
+---
+title: "eds212-day2-tasks"
+author: "Karol Paya"
+format: html
+---
+```{r}
+library(palmerpenguins)
+library(tidyverse)
+```
+
