@@ -7,4 +7,21 @@ format: html
 library(palmerpenguins)
 library(tidyverse)
 ```
+#Find Derivatives using R
+#f
+```{r}
+my_expression<-expression(x^2)
+x<-3
+my_deriv<-D(my_expression,"x")
+evaluate<-eval(my_deriv)
+evaluate               
+```
+```{r}
+my_expression2<-expression(2*(3*a+2)^4-5)
+a<-1.2
+my_deriv2<-D(my_expression2,"a")
+evaluate2<-eval(my_deriv2)
+evaluate2 
+```
+
 
